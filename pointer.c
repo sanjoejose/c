@@ -14,7 +14,7 @@ int main() {
     
     scanf("%d %d", &a, &b);
     update(pa, pb);
-    printf("%d\n%d", a, b);
+    printf("%d\n%d", a, abs(b));//to remove negative sign
 
     return 0;
 }
